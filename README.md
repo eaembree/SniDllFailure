@@ -6,4 +6,6 @@ When this ASP.NET Core 3.0 app is deployed to our Windows Server 2012 R2 this pr
 
 A publish.bat file is included to show how I publish the app.
 
-**There are two branches**. Both to the same task of querying a few records from a simple table. **Master** branch is using Entity Framework. **sqlclient** branch is using SqlConnection/SqlCommand to do the same. Both fail with the same error.
+The app is from the standard asp.net core 3.0 template with only a single new action added to query a few records from a table.
+
+**There are two branches**. master is using Entity Framework. sqlclient is using SqlConnection/SqlCommand to do the same. Both fail with the same error.
