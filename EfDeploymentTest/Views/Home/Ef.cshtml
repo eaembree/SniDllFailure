@@ -1,0 +1,15 @@
+﻿@using EfDeploymentTest.Ef
+
+@{
+    ViewData["Title"] = "Ef";
+    List<Log> logs = (List<Log>) ViewBag.Logs;
+}
+
+<h1>Ef</h1>
+
+<p>@logs.Count logs returned</p>
+
+@foreach (var log in logs)
+{
+    <p>Id: @log.Id, Message: @log.Message</p>
+}

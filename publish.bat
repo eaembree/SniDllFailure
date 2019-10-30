@@ -1,0 +1,1 @@
+dotnet publish EfDeploymentTest\EfDeploymentTest.csproj --output publish\standard --configuration release
